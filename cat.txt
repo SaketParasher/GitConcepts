@@ -1,1 +1,2 @@
 Schrinzer
+This text is added in cat.txt from cat branch
