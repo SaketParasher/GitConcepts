@@ -1,2 +1,16 @@
 1) Remove a file from Staging Area :- 
      git rm --cached <filename>
+
+2) git diff or git diff --staged to get difference before or after staging
+
+3) git reset HEAD <filename> :- to UnStage a file.
+
+4) git checkout -- <filename> :- to revert back the changes after last commit
+                                 then there will be no changes and nothing to co                                 mmit. clean working directory.
+
+5) git commit -a -m "message" :- skip staging and directly commit from all(-a)                                   tracked files. Don't adds new Untracked Files.
+
+6) t reset --soft HEAD^       :- Undoing a commit 
+
+7) git commit --amend -m "modifying GIT.txt and appending to last commit" 
+                              :- whatever has been staged is added to last commi                                 t
