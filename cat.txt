@@ -1,2 +1,5 @@
 Schrinzer
+
 This is added from master branch in cat.txt
+This text is added in cat.txt from cat branch
+
