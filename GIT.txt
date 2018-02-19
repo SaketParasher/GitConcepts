@@ -1,0 +1,2 @@
+1) Remove a file from Staging Area :- 
+     git rm --cached <filename>
